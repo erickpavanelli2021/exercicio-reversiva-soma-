@@ -9,9 +9,9 @@ public class Principal {
 		//Método construtor
 		SomaController ft = new SomaController();
 		//Definindo um valor para o fatorial
-		int fatorial = 10;
+		int soma = 10;
 		//variavel que recebe o resultado
-		int resultado = ft.fat(fatorial);
+		int resultado = ft.result(soma);
 		System.out.println("Resultado: "+resultado);
 
 	}
