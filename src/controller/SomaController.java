@@ -7,7 +7,7 @@ public class SomaController {
 		}
 		
 		public int result(int soma) {
-			//Condição de parada = se o result for 0, deverá retornar 0
+			//Condição de parada =  0 se o result for 0, deverá retornar 0
 		 if (soma == 0) {
 	      return 0;	
 	      //Caso seja diferente de 0, deverá somar soma + (soma - 1)
